@@ -8,9 +8,12 @@
 
     <!-- Nuget Publishing -->
     <PackageId>Typeform.DotNet</PackageId>
-    <Description> Typeform API .NET Standard 2.0 wrapper built with Refit. For usage, see https://github.com/crankyc0der/typeform-dotnet/blob/main/README.md</Description>
-    <Authors>Kamran Ayub (original author), Iestyn Parry (forked repo)</Authors>
-    <Copyright>Copyright 2021 Kamran Ayub, Copyright 2023 Crank Group</Copyright>
+    <Description>
+      Typeform API .NET Standard 2.0 wrapper built with Refit. 
+      Modified version of original by Kamran Ayub, to add support for phone_number type answers from the Responses API.  
+      For usage, see https://github.com/crankyc0der/typeform-dotnet/blob/main/README.md</Description>
+    <Authors>Kamran Ayub (original author), Iestyn Parry (fork)</Authors>
+    <Copyright>Copyright 2021 Kamran Ayub (original), Copyright 2023 Crank Group (fork)</Copyright>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/crankyc0der/typeform-dotnet</PackageProjectUrl>
     <RepositoryBranch>main</RepositoryBranch>
