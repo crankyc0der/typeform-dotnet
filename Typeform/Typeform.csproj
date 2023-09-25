@@ -7,7 +7,7 @@
     <OutputPath>lib</OutputPath>
 
     <!-- Nuget Publishing -->
-    <PackageId>Typeform.DotNet</PackageId>
+    <PackageId>Typeform2</PackageId>
     <Description>
       Typeform API .NET Standard 2.0 wrapper built with Refit. 
       Modified version of original by Kamran Ayub, to add support for phone_number type answers from the Responses API.  
@@ -25,6 +25,7 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <PackageIcon>apple-touch-icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
@@ -34,6 +35,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
     <None Include="apple-touch-icon.png" Pack="true" PackagePath=""/>
+    <None Include="..\README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
   <ItemGroup>
