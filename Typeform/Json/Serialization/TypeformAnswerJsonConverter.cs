@@ -45,6 +45,7 @@ public class TypeformAnswerJsonConverter : JsonConverter<TypeformAnswer>
         TypeformAnswerType.FileUrl => typeof(TypeformAnswerFileUrl),
         TypeformAnswerType.Number => typeof(TypeformAnswerNumber),
         TypeformAnswerType.Payment => typeof(TypeformAnswerPayment),
+        TypeformAnswerType.PhoneNumber => typeof(TypeformAnswerPhoneNumber),
         TypeformAnswerType.Text => typeof(TypeformAnswerText),
         TypeformAnswerType.Url => typeof(TypeformAnswerUrl),
         _ => typeof(TypeformAnswer)

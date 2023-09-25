@@ -11,12 +11,12 @@ public enum TypeformAnswerType
   Choices,
   Email,
   Url,
-  [EnumMember(Value = "file_url")]
-  FileUrl,
+  [EnumMember(Value = "file_url")] FileUrl,
   Boolean,
   Number,
   Date,
-  Payment
+  Payment,
+  [EnumMember(Value = "phone_number")] PhoneNumber
 }
 
 
@@ -52,6 +52,11 @@ public class TypeformAnswerEmail : TypeformAnswer
 public class TypeformAnswerFileUrl : TypeformAnswer
 {
   public Uri FileUrl { get; set; }
+}
+
+public class TypeformAnswerPhoneNumber : TypeformAnswer
+{
+  public string PhoneNumber { get; set; }
 }
 
 public class TypeformAnswerUrl : TypeformAnswer

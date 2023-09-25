@@ -49,6 +49,15 @@ public class AnswerDeserializationTests
     Assert.Equal(TypeformAnswerType.Number, answer.Type);
     Assert.Equal(1, answer.Number);
   }
+  
+  [Fact]
+  public void Deserializes_Answer_Phone_Number_Field()
+  {
+    var answer = GetAnswerFromFixture<TypeformAnswerPhoneNumber>(17);
+
+    Assert.Equal(TypeformAnswerType.PhoneNumber, answer.Type);
+    Assert.Equal("+61400123456", answer.PhoneNumber);
+  }
 
   [Fact]
   public void Deserializes_Answer_Choices_Field()

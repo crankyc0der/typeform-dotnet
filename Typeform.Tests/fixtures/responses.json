@@ -167,6 +167,15 @@
             "type": "payment"
           },
           "type": "payment"
+        },
+        {
+          "field": {
+            "id": "3fGdGLI5WF3s",
+            "type": "phone_number",
+            "ref": "my_custom_phone_number_reference"
+          },
+          "type": "phone_number",
+          "phone_number": "+61400123456"
         }
       ],
       "calculated": {
