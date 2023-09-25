@@ -7,21 +7,21 @@
     <OutputPath>lib</OutputPath>
 
     <!-- Nuget Publishing -->
-    <PackageId>Typeform</PackageId>
-    <Description> Typeform API .NET Standard 2.0 wrapper built with Refit. For detailed usage, see https://github.com/kamranayub/typeform-dotnet/blob/main/README.md</Description>
-    <Authors>Kamran Ayub</Authors>
-    <Copyright>Copyright 2021 Kamran Ayub</Copyright>
+    <PackageId>Typeform.DotNet</PackageId>
+    <Description> Typeform API .NET Standard 2.0 wrapper built with Refit. For usage, see https://github.com/crankyc0der/typeform-dotnet/blob/main/README.md</Description>
+    <Authors>Kamran Ayub (original author), Iestyn Parry (forked repo)</Authors>
+    <Copyright>Copyright 2021 Kamran Ayub, Copyright 2023 Crank Group</Copyright>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/kamranayub/typeform-dotnet</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/crankyc0der/typeform-dotnet</PackageProjectUrl>
     <RepositoryBranch>main</RepositoryBranch>
-    <RepositoryUrl>https://github.com/kamranayub/typeform-dotnet</RepositoryUrl>
+    <RepositoryUrl>https://github.com/crankyc0der/typeform-dotnet</RepositoryUrl>
     <PackageTags>typeform dotnet forms surveys videoask opinions feedback</PackageTags>
-    <PackageIconUrl>https://www.typeform.com/apple-touch-icon.png</PackageIconUrl>
-    <PackageReleaseNotes>See https://github.com/kamranayub/typeform-dotnet/releases</PackageReleaseNotes>
+    <PackageReleaseNotes>See https://github.com/crankyc0der/typeform-dotnet/releases</PackageReleaseNotes>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <PackageIcon>apple-touch-icon.png</PackageIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
