@@ -30,6 +30,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+    <None Include="apple-touch-icon.png" Pack="true" PackagePath=""/>
   </ItemGroup>
 
   <ItemGroup>
