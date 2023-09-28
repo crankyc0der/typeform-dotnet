@@ -4,12 +4,6 @@
 
 A .NET Standard 2.0 SDK wrapper built with [Refit](https://github.com/reactiveui/refit) around Typeform's API.
 
-## Twitch Streams
-
-This SDK is (mostly) built in public on Twitch. Watch the collection here:
-
-https://www.twitch.tv/collections/Lm3OF4Q0xBZaSA
-
 ## Supported Endpoints
 
 - [Retrieve responses](https://developer.typeform.com/responses/reference/retrieve-responses/)
@@ -19,14 +13,14 @@ https://www.twitch.tv/collections/Lm3OF4Q0xBZaSA
 
 ## Install
 
-via [Nuget](https://nuget.org/packages/Typeform)
+via [Nuget](https://nuget.org/packages/Typeform2)
 
 ```sh
 # Package Manager
-Install-Package Typeform
+Install-Package Typeform2
 
 # dotnet
-dotnet add package Typeform
+dotnet add package Typeform2
 ```
 
 ## Usage
@@ -169,6 +163,7 @@ Type answerInstanceType = type switch
   TypeformAnswerType.FileUrl => typeof(TypeformAnswerFileUrl),
   TypeformAnswerType.Number => typeof(TypeformAnswerNumber),
   TypeformAnswerType.Payment => typeof(TypeformAnswerPayment),
+  TypeformAnswerType.PhoneNumber => typeof(TypeformAnswerPhoneNumber),
   TypeformAnswerType.Text => typeof(TypeformAnswerText),
   TypeformAnswerType.Url => typeof(TypeformAnswerUrl),
   _ => typeof(TypeformAnswer)
