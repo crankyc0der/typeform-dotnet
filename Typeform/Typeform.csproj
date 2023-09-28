@@ -26,6 +26,7 @@
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <PackageIcon>apple-touch-icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
